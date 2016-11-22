@@ -63,7 +63,7 @@
 
   <!-- Splash screen -->
   <section id="page-splash">
-    <h3 class="logo">Database Web Quickstart</h3>
+    <h3 class="logo">My Awesome Post</h3>
     <div>
       <button id="sign-in-button" class="mdl-button--raised mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">account_circle</i> Sign in with Google</button>
     </div>
@@ -73,7 +73,7 @@
   <header class="header mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
 
     <div class="mdl-layout__header-row titlebar">
-      <h3 class="logo">Database Web Quickstart</h3>
+      <h3 class="logo">My Awesome Post</h3>
       <button id="sign-out-button" class="mdl-button--raised mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">account_circle</i> Sign out</button>
     </div>
 
@@ -148,5 +148,18 @@
 </div>
 
 <script src="scripts/main.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyALCLWDrqQrwATBabCY2tZwFuBmi4XjIfY",
+    authDomain: "fauz-awesome-project.firebaseapp.com",
+    databaseURL: "https://fauz-awesome-project.firebaseio.com",
+    storageBucket: "fauz-awesome-project.appspot.com",
+    messagingSenderId: "592733834970"
+  };
+  firebase.initializeApp(config);
+</script>
 </body>
 </html>
